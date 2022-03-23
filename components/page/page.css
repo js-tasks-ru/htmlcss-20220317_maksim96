@@ -1,0 +1,44 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.header__title {
+    font-size: 2em;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #F9FAFC;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer__content {
+    width: 33%;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 1.5em;
+}
+
+.footer__description {
+    font-size: 0.8em;
+}
+
+.footer__space-after {
+    margin-bottom: 20px;
+}
