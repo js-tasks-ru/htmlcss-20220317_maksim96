@@ -1,77 +1,63 @@
 .button {
     background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-
-    border-radius: 8px;
-    height: 48px;
-    min-width: 189px;
-    font-size: 16px;
-}
-
-.button-primary {
-    background-color: var(--blue);
-    border-color: var(--blue);
     color: var(--white);
+    border: none;
+    font-family: Roboto, serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 8px;
+    padding: 14px 15px;
+    min-width: 189px;
+    text-align: center;
+    line-height: 18px;
 }
 
-.button-primary:hover {
+/* Primary button styles */
+.button__primary {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+}
+
+.button__primary:hover {
     background-color: var(--dark-blue);
     border-color: var(--dark-blue);
 }
 
-.button-primary:disabled {
+.button__primary:disabled {
     opacity: 0.5;
+    pointer-events: none
 }
 
-.button-primary:disabled:hover {
-    cursor: not-allowed;
-    background-color: var(--blue);
-    border-color: var(--blue);
-}
-
-.button-secondary {
+/* Secondary button styles */
+.button__secondary {
+    border: 1px solid var(--purple);
     background-color: var(--purple);
-    border-color: var(--purple);
-    color: var(--white);
 }
 
-.button-secondary:hover {
+.button__secondary:hover {
     background-color: var(--dark-purple);
     border-color: var(--dark-purple);
 }
 
-.button-secondary:disabled {
+.button__secondary:disabled {
     opacity: 0.5;
+    pointer-events: none
 }
 
-.button-secondary:disabled:hover {
-    cursor: not-allowed;
-    background-color: var(--purple);
-    border-color: var(--purple);
-}
-
-.button-alternate {
-    border: 1px solid;
+/* Alternate button styles */
+.button__alternate {
+    border: 1px solid var(--grey-3);
     background-color: var(--white);
-    border-color: var(--grey-3);
     color: var(--black);
 }
 
-.button-alternate:hover {
+.button__alternate:hover {
     border-color: var(--black);
 }
 
-.button-alternate:disabled {
+.button__alternate:disabled {
     opacity: 0.5;
-}
-
-.button-alternate:disabled:hover {
-    cursor: not-allowed;
-    background-color: var(--white);
-    border-color: var(--grey-3);
+    pointer-events: none
 }
