@@ -1,9 +1,14 @@
 .header {
     display: flex;
-    padding: 20px;
-    justify-content: center;
+    padding: 96px 160px 77px;
 }
 
 .header__title {
-    font-size: 2em;
+    font-family: Inter, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0;
+    text-align: left;
 }
