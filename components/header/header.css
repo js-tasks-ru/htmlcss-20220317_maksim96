@@ -1,10 +1,10 @@
 .header {
-    display: flex;
-    padding: 96px 160px 77px;
+    padding: 96px 0 77px;
+    background: var(--white);
 }
 
 .header__title {
-    font-family: Inter, serif;
+    font-family: 'Inter', serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
