@@ -1,0 +1,16 @@
+.preview {
+    flex-grow: 1;
+    background-color: #F9FAFC;
+    padding: 68px 0;
+}
+
+.preview__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.preview__card {
+    width: 350px;
+    margin: auto;
+}
