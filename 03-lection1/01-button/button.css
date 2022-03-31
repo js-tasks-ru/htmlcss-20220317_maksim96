@@ -14,6 +14,11 @@
     line-height: 18px;
 }
 
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none
+}
+
 /* Primary button styles */
 .button__primary {
     border: 1px solid var(--blue);
@@ -23,11 +28,6 @@
 .button__primary:hover {
     background-color: var(--dark-blue);
     border-color: var(--dark-blue);
-}
-
-.button__primary:disabled {
-    opacity: 0.5;
-    pointer-events: none
 }
 
 /* Secondary button styles */
@@ -41,11 +41,6 @@
     border-color: var(--dark-purple);
 }
 
-.button__secondary:disabled {
-    opacity: 0.5;
-    pointer-events: none
-}
-
 /* Alternate button styles */
 .button__alternate {
     border: 1px solid var(--grey-3);
@@ -55,9 +50,4 @@
 
 .button__alternate:hover {
     border-color: var(--black);
-}
-
-.button__alternate:disabled {
-    opacity: 0.5;
-    pointer-events: none
 }
